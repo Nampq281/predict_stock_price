@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "ts-stock-price"
+version = "0.1.0"
+description = "predict stock price with machine learning and statistics"
+authors = ["None"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+mlforecast = "^0.15.0"
+statsforecast = "^1.7.8"
+ipykernel = "^6.29.5"
+seaborn = "^0.13.2"
+catboost = "^1.2.7"
+tsfeatures = "^0.4.5"
+mfles = "^0.2.4"
+statsmodels = "^0.14.4"
+lightgbm = "^4.5.0"
+tensorflow = "^2.18.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
