@@ -17,4 +17,5 @@ Sử dụng notebook để chạy các phần chương trình
 1. Data import
 2. EDA
 3. Feature engineering
-4. Model training and evaluation 
+4. Model training and evaluation
+5. 
